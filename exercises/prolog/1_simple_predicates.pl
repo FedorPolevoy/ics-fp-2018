@@ -17,7 +17,7 @@
 % указать в каком порядке и какие ответы генерируются вашими методами
 % brother(X,Y)
 
-brother(X,Y) :- father(Z,X), father(Z,Y), X \=Y.
+brother(X,Y) :- father(Z,X), father(Z,Y), X \= Y.
 
 % X=b, Y=c; X=c, Y=b; X=d, Y=e; X=e, Y=d.
 
